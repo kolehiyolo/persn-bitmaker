@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "ZX Spectrum";
+  src: url("assets/fonts/zx_spectrum-7.ttf");
+}
+body {
+  font-family: "ZX Spectrum", serif;
+  color: white;
+  text-shadow: 0 0 10px #fff;
+}
+
+html body {
+  min-height: 100vh;
+}
+html body,
+html body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html body .bitmaker {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+  background-image: linear-gradient(150deg, #343c47, #1e212b);
+  box-shadow: 15px 15px 15px 0px rgb(156, 156, 156);
+}
+html body .bitmaker .upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .upper .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+html body .bitmaker .upper .left .display-screen {
+  width: 300px;
+  height: 180px;
+  background-color: #020405;
+  background-image: linear-gradient(150deg, #080e11, #020405);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+html body .bitmaker .upper .left .display-screen .upper {
+  border-bottom: solid 2px white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+html body .bitmaker .upper .left .display-screen .main {
+  padding: 10px;
+}
+html body .bitmaker .upper .left .macros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+html body .bitmaker .upper .left .macros .macro {
+  border-radius: 150px;
+  background: #2f3640;
+  box-shadow: 5px 5px 10px #13161a, -5px -5px 10px #4b5666;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body .bitmaker .upper .left .macros .macro.macro-on {
+  color: rgb(0, 255, 76);
+  text-shadow: 0 0 10px rgb(0, 255, 76);
+}
+html body .bitmaker .upper .left .macros .macro.macro-off {
+  color: rgba(0, 255, 76, 0.3) !important;
+  text-shadow: none !important;
+}
+html body .bitmaker .upper .sequencer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .upper .sequencer .sample {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .upper .sequencer .sample p {
+  text-shadow: none;
+  color: grey;
+  display: none;
+}
+html body .bitmaker .upper .sequencer .sample .sound {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2d333e, #262b34);
+  box-shadow: 5px 5px 10px #111317, -5px -5px 10px #434d5d;
+  text-transform: uppercase;
+}
+html body .bitmaker .upper .sequencer .sample .sound.sound-off {
+  color: rgba(255, 255, 255, 0.25) !important;
+  text-shadow: none;
+}
+html body .bitmaker .upper .sequencer .sample .sound.sound-on {
+  color: white;
+  text-shadow: 0 0 10px #fff;
+}
+html body .bitmaker .upper .sequencer .sample .sequences {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+html body .bitmaker .upper .sequencer .sample .sequences .seq {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #303742, #292e38);
+  box-shadow: 5px 5px 6px #20242c, -5px -5px 6px #3a4250;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-off {
+  color: rgba(255, 255, 255, 0.25) !important;
+  text-shadow: none;
+}
+html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-on {
+  color: white;
+  text-shadow: 0 0 10px #fff;
+}
+html body .bitmaker .upper .sequencer .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .upper .sequencer .column-1 {
+  border-right: rgba(255, 255, 255, 0.1) solid 2px;
+  padding-right: 20px;
+}
+html body .bitmaker .lower {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 20px;
+}
+html body .bitmaker .lower .pads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .lower .pads .pad {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 13px;
+  background: #2b313e;
+  box-shadow: 5px 5px 10px #111419, -5px -5px 10px #454e63;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #1a432e, #163927);
+  box-shadow: 5px 5px 5px #102a1d, -5px -5px 5px #205439;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #2d333e, #262b34);
+  box-shadow: 5px 5px 5px #1c2027, -5px -5px 5px #38404d;
+}
+html body .bitmaker .lower .pads .pad.pad-off .info {
+  border: rgba(255, 255, 255, 0.25) solid 3px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.25);
+  text-shadow: none;
+}
+html body .bitmaker .lower .pads .pad.pad-on .info {
+  border: rgb(255, 255, 255) solid 3px;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255), 0px 0px 5px rgb(255, 255, 255) inset;
+}
+html body .bitmaker .lower .pads .pad.pad-seq .info {
+  border: rgb(0, 255, 76) solid 3px;
+  box-shadow: 0px 0px 5px rgb(0, 255, 76), 0px 0px 5px rgb(0, 255, 76) inset;
+  color: rgb(0, 255, 76);
+  text-shadow: 0 0 10px rgb(0, 255, 76);
+}
+html body .bitmaker .lower .pads .pad .info {
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+html body .bitmaker .lower .pads .pad .info .key {
+  font-size: 50px;
+}
+html body .bitmaker .lower .pads .pad .info .sample {
+  text-transform: uppercase;
+  display: none;
+}
+html body .bitmaker .lower .pads .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+html body .bitmaker .lower .titi {
+  width: 100%;
+  height: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid rgba(255, 255, 255, 0.25) 3px;
+  border-radius: 5px;
+}
+html body .bitmaker .lower .titi h1 {
+  text-shadow: none;
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 50px;
+  text-transform: lowercase;
+}/*# sourceMappingURL=index.css.map */
