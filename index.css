@@ -18,6 +18,11 @@ html body * {
   box-sizing: border-box;
 }
 
+:root {
+  --text-2: rgb(255, 251, 0);
+  --text-1: rgb(0, 255, 255);
+}
+
 html body {
   position: relative;
   display: flex;
@@ -180,6 +185,16 @@ html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-off {
 html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-on {
   color: white;
   text-shadow: 0 0 10px #fff;
+  color: rgb(0, 255, 76);
+  text-shadow: 0 0 10px rgb(0, 255, 76);
+}
+html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-off-play {
+  color: var(--text-1) !important;
+  text-shadow: none !important;
+}
+html body .bitmaker .upper .sequencer .sample .sequences .seq.seq-on-play {
+  color: var(--text-2);
+  text-shadow: 0 0 10px var(--text-2);
 }
 html body .bitmaker .upper .sequencer .column {
   display: flex;

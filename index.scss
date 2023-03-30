@@ -25,6 +25,15 @@ html {
     }
 }
 
+
+:root {
+    // text: 
+    // --text-1: rgb(195, 0, 255);
+    // --text-2: rgb(0, 255, 76);
+    --text-2: rgb(255, 251, 0);
+    --text-1: rgb(0, 255, 255);
+}
+
 html {
     body {
         position: relative;
@@ -72,14 +81,14 @@ html {
                         height: 100%;
                         display: flex;
                         flex-direction: row;
-                    align-items: center;
-                    justify-content: center;
-                    border: solid rgba(255, 255, 255, 0.25) 3px;
-                    border-radius: 5px;
-                    border: rgb(0, 255, 76) solid 3px;
-                                box-shadow: 0px 0px 5px rgb(0, 255, 76), 0px 0px 5px rgb(0, 255, 76) inset;
-                                
-                        
+                        align-items: center;
+                        justify-content: center;
+                        border: solid rgba(255, 255, 255, 0.25) 3px;
+                        border-radius: 5px;
+                        border: rgb(0, 255, 76) solid 3px;
+                        box-shadow: 0px 0px 5px rgb(0, 255, 76), 0px 0px 5px rgb(0, 255, 76) inset;
+
+
                         h1 {
                             text-shadow: none;
                             color: rgba(255, 255, 255, 0.25);
@@ -87,7 +96,7 @@ html {
                             // font-family: monospace;
                             text-transform: lowercase;
                             color: rgb(0, 255, 76);
-                                text-shadow: 0 0 10px rgb(0, 255, 76);
+                            text-shadow: 0 0 10px rgb(0, 255, 76);
                         }
                     }
 
@@ -250,10 +259,26 @@ html {
                                     color: rgba(255, 255, 255, 0.25) !important;
                                     text-shadow: none;
                                 }
-    
+
                                 &.seq-on {
                                     color: white;
                                     text-shadow: 0 0 10px #fff;
+                                    color: rgb(0, 255, 76);
+                                    text-shadow: 0 0 10px rgb(0, 255, 76);
+                                }
+
+                                &.seq-off-play {
+                                    // color: rgb(0, 255, 76) !important;
+                                    color: var(--text-1) !important;
+                                    // color: white !important;
+                                    text-shadow: none !important;
+                                }
+
+                                &.seq-on-play {
+                                    color: var(--text-2);
+                                    // color: rgb(195, 0, 255);
+                                    text-shadow: 0 0 10px var(--text-2);
+                                    // text-shadow: 0 0 10px rgb(195, 0, 255) !important;
                                 }
                             }
                         }
@@ -368,18 +393,18 @@ html {
                     }
 
                 }
-                
+
                 .titi {
                     width: 100%;
                     // height: 320p x;
                     height: 100%;
                     display: flex;
                     flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                border: solid rgba(255, 255, 255, 0.25) 3px;
-                border-radius: 5px;
-                    
+                    align-items: center;
+                    justify-content: center;
+                    border: solid rgba(255, 255, 255, 0.25) 3px;
+                    border-radius: 5px;
+
                     h1 {
                         text-shadow: none;
                         color: rgba(255, 255, 255, 0.25);

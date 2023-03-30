@@ -1,10 +1,3 @@
-// document.addEventListener('keydown', (event) => {
-//     var name = event.key;
-//     console.log(`name = ${name}`);
-
-//     pressButton(event.key, "down");
-// });
-
 document.addEventListener('keydown', (event) => {
     var name = event.key;
     console.log(`name = ${name}`);
@@ -168,6 +161,8 @@ function pressButton(key, mode) {
                 console.log(`PAUSE MUSIC`); 
                 states.playMode.status=false;
                 clearInterval(states.playMode.interval);
+                $(`.seq-off-play`).removeClass(`seq-off-play`);
+            $(`.seq-on-play`).removeClass(`seq-on-play`);
             } else {
                 console.log(`PLAY MUSIC`); 
                 states.playMode.status=true;
@@ -237,18 +232,31 @@ function playMusic() {
     function playSequencer() {
         let letters = ["w", "a", "s", "d", "i", "j", "k", "l"];
 
-        letters.forEach(letter => {
+        letters.forEach((letter,index) => {
             if (states.sequenceMode.sample[letter].seq[seqStep - 1] === 1) {
                 document.getElementById(`audio-${keyToPadMatrix[letter]}`).pause();
                 document.getElementById(`audio-${keyToPadMatrix[letter]}`).play();
                 $(`.pad.pad-${keyToPadMatrix[letter]}`).removeClass(`pad-off`);
                 $(`.pad.pad-${keyToPadMatrix[letter]}`).addClass(`pad-on`);
 
+                $(`.sequencer .column .sample-${index+1} .sequences .seq-${seqStep}`).addClass(`seq-on-play`);
+                
                 setTimeout(() => {
                     $(`.pad.pad-${keyToPadMatrix[letter]}`).removeClass(`pad-on`);
                     $(`.pad.pad-${keyToPadMatrix[letter]}`).addClass(`pad-off`);
                 }, 100);
+            } else {
+                $(`.sequencer .column .sample-${index+1} .sequences .seq-${seqStep}`).addClass(`seq-off-play`);
             }
+
+            setTimeout(() => {
+                // $(`.sequencer .column .sample-${index+1} .sequences .seq-${seqStep}`).removeClass(`seq-on-play`);
+                // $(`.sequencer .column .sample-${index+1} .sequences .seq-${seqStep}`).removeClass(`seq-off-play`);
+                $(`.seq-on-play`).removeClass(`seq-on-play`);
+                $(`.seq-off-play`).removeClass(`seq-off-play`);
+            }, 100);
+            // $(`.seq-on-play`).removeClass(`seq-on-play`);
+            // $(`.seq-off-play`).removeClass(`seq-off-play`);
         });
 
         if (seqStep < 8) {
@@ -258,3 +266,4 @@ function playMusic() {
         }
     }
 }
+
