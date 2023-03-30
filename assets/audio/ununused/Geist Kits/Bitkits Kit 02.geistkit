@@ -1,0 +1,306 @@
+<root>
+    <Pad name="Pad0" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.360892" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.360892" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Kick\Kick Bitkits 02 1.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="44885" SampleLength="44885" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="44885" SampleLength="44885" />
+            <FixedString name="LayerName" string="Kick Bitkits 02 1" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Kick 1" />
+    </Pad>
+    <Pad name="Pad1" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.235365" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.235365" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Snare\Snare Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="8120" SampleLength="8120" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="8120" SampleLength="8120" />
+            <FixedString name="LayerName" string="Snare Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Snare" />
+    </Pad>
+    <Pad name="Pad2" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.204315" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.204315" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Engine group 1" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Hihat\ClosedHH Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="4611" SampleLength="4611" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="4611" SampleLength="4611" />
+            <FixedString name="LayerName" string="ClosedHH Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="ClosedHH" />
+    </Pad>
+    <Pad name="Pad3" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.234834" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.234834" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Engine group 1" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Metallic\Tamb Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="8047" SampleLength="8047" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="8047" SampleLength="8047" />
+            <FixedString name="LayerName" string="Tamb Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Tamb" />
+    </Pad>
+    <Pad name="Pad4" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.182853" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.182853" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Kick\Kick Bitkits 02 2.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="2958" SampleLength="2958" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="2958" SampleLength="2958" />
+            <FixedString name="LayerName" string="Kick Bitkits 02 2" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Kick 2" />
+    </Pad>
+    <Pad name="Pad5" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.262357" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.262357" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Clap\Clap Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="12536" SampleLength="12536" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="12536" SampleLength="12536" />
+            <FixedString name="LayerName" string="Clap Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Clap" />
+    </Pad>
+    <Pad name="Pad6" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.170173" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.170173" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Shaker\Shaker Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="2219" SampleLength="2219" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="2219" SampleLength="2219" />
+            <FixedString name="LayerName" string="Shaker Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Shaker" />
+    </Pad>
+    <Pad name="Pad7" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.263195" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.263195" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Noise\Noise Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="12697" SampleLength="12697" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="12697" SampleLength="12697" />
+            <FixedString name="LayerName" string="Noise Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Noise" />
+    </Pad>
+    <Pad name="Pad8" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.368809" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.368809" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Blip &amp; Blop\Blip Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="48955" SampleLength="48955" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="48955" SampleLength="48955" />
+            <FixedString name="LayerName" string="Blip Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Blip" />
+    </Pad>
+    <Pad name="Pad9" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.230274" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.230274" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\SFX\SFX Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7440" SampleLength="7440" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7440" SampleLength="7440" />
+            <FixedString name="LayerName" string="SFX Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="SFX" />
+    </Pad>
+    <Pad name="Pad10" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.229528" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.229528" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Tom\Tom Bitkits 02 1.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7344" SampleLength="7344" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7344" SampleLength="7344" />
+            <FixedString name="LayerName" string="Tom Bitkits 02 1" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Tom 1" />
+    </Pad>
+    <Pad name="Pad11" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.276017" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.276017" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\Drums\Tom\Tom Bitkits 02 2.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="15358" SampleLength="15358" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="15358" SampleLength="15358" />
+            <FixedString name="LayerName" string="Tom Bitkits 02 2" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Tom 2" />
+    </Pad>
+    <Pad name="Pad12" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.45883" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.45883" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Stab &amp; Hit\Hit Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="117273" SampleLength="117273" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="117273" SampleLength="117273" />
+            <FixedString name="LayerName" string="Hit Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Hit" />
+    </Pad>
+    <Pad name="Pad13" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.302854" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.302854" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Buzz\Buzz Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="22260" SampleLength="22260" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="22260" SampleLength="22260" />
+            <FixedString name="LayerName" string="Buzz Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Buzz" />
+    </Pad>
+    <Pad name="Pad14" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.283386" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.283386" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Blip &amp; Blop\Beep Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="17065" SampleLength="17065" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="17065" SampleLength="17065" />
+            <FixedString name="LayerName" string="Beep Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Beep" />
+    </Pad>
+    <Pad name="Pad15" Ver="2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" V2A="1" PadMode="All layers">
+        <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+            <FixedString name="ChainPresetName" string="Default" />
+        </EffectChain>
+        <Layer name="Layer0" Ver="3.2" LockState="false" Gain="0.793701" Pan="0.5" Mute="false" Solo="false" OutputLocation="Parent" AuxSend0="0" AuxSend1="0" AuxSend2="0" AuxSend3="0" IsReversed="false" PhasePosition="1" UsesTimestretch="false" TSTracksBPM="false" SourceBPM="120" DestinationBPM="120" V2C="0.5" V2P="0.5" EnvTracksPitch="false" LayerGain="0.793701" LayerPan="0.5" CoarseTune="0.5" FineTune="0.5" PreDelayTime="0" Cutoff="0.970594" Resonance="0" FilterType="0" FilterDrive="0.3" FilterAlgorithm="0.3" FilterActive="0" Envelope0Param0="0" Envelope0Param1="0.02" Envelope0Param2="1" Envelope0Param3="0.23368" Envelope0Param4="0" Envelope0Param5="0.5" Envelope0Param6="0.5" Envelope0Param7="0.5" Envelope1Param0="0" Envelope1Param1="0.02" Envelope1Param2="1" Envelope1Param3="0.23368" Envelope1Param4="0.001" Envelope1Param5="0.5" Envelope1Param6="0.5" Envelope1Param7="0.5" EnvelopeType0="ADSR" EnvelopeType1="ADSR" CutMode="Self" PlaybackMode="One shot" TSMode="Default" AudioFileName="..\Samples\One Shots\Stab &amp; Hit\Arp Bitkits 02.wav">
+            <EffectChain name="EffectChain" FXVer="2.1" IsActive="true" ChainMix="1">
+                <FixedString name="ChainPresetName" string="Default" />
+            </EffectChain>
+            <LayerVelocitySplit name="VelocitySplit" Ver="2" LowPoint="0" LowTurn="0" HighTurn="127" Highest="127" />
+            <AudioFileMarkers name="StartEndMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7890" SampleLength="7890" />
+            <AudioFileMarkers name="LoopMarkers" FileMarkerVersion="2" StartSample="0" EndSample="7890" SampleLength="7890" />
+            <FixedString name="LayerName" string="Arp Bitkits 02" />
+            <LayerModulationRouting name="ModRouting0" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting1" Ver="1" ModulationDepth="0.5" ModulationDestination="No destination" />
+            <LayerModulationRouting name="ModRouting2" Ver="1" ModulationDepth="0.5" ModulationDestination="Cutoff" />
+            <LayerModulationRouting name="ModRouting3" Ver="1" ModulationDepth="0.5" ModulationDestination="Pitch" />
+        </Layer>
+        <FixedString name="PadName" string="Arp" />
+    </Pad>
+</root>

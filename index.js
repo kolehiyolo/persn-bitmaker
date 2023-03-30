@@ -59,23 +59,28 @@ let states = {
             },
         },
 
+    },
+    playMode: {
+        status: false,
+        interval: "",
+        bpm: 200,
     }
 }
 
-function pressButton(key, mode) {
-    let keyToPadMatrix = {
-        w: 1,
-        a: 2,
-        s: 3,
-        d: 4,
-        i: 5,
-        j: 6,
-        k: 7,
-        l: 8,
-        q: 3,
-        e: 4,
-    }
+let keyToPadMatrix = {
+    w: 1,
+    a: 2,
+    s: 3,
+    d: 4,
+    i: 5,
+    j: 6,
+    k: 7,
+    l: 8,
+    q: 3,
+    e: 4,
+}
 
+function pressButton(key, mode) {
     if (key === "w" ||
         key === "a" ||
         key === "s" ||
@@ -158,6 +163,17 @@ function pressButton(key, mode) {
                 $(`.sound-on`).removeClass(`sound-on`);
             }
             break;
+        case "p":
+            if (states.playMode.status) {
+                console.log(`PAUSE MUSIC`); 
+                states.playMode.status=false;
+                clearInterval(states.playMode.interval);
+            } else {
+                console.log(`PLAY MUSIC`); 
+                states.playMode.status=true;
+                playMusic();
+            }
+            break;
     }
 
     if (key === "1" ||
@@ -171,23 +187,23 @@ function pressButton(key, mode) {
     ) {
         if (states.sequenceMode.status === true) {
             let activeSamples = [];
-            let letters = ["w", "a", "s", "d", "i", "j", "k", "l" ];
+            let letters = ["w", "a", "s", "d", "i", "j", "k", "l"];
 
             letters.forEach(letter => {
                 if (states.sequenceMode.sample[letter].toggle) {
-                    if (states.sequenceMode.sample[letter].seq[key-1] === 0) {
-                        states.sequenceMode.sample[letter].seq[key-1] = 1;
+                    if (states.sequenceMode.sample[letter].seq[key - 1] === 0) {
+                        states.sequenceMode.sample[letter].seq[key - 1] = 1;
 
                         $(`.sequencer .sample-${keyToPadMatrix[letter]} .seq-${key}`).removeClass(`seq-off`);
                         $(`.sequencer .sample-${keyToPadMatrix[letter]} .seq-${key}`).addClass(`seq-on`);
 
-                        console.log(`TURN ON`); 
+                        console.log(`TURN ON`);
                     } else {
-                        console.log(`TURN OFF`); 
+                        console.log(`TURN OFF`);
                         $(`.sequencer .sample-${keyToPadMatrix[letter]} .seq-${key}`).addClass(`seq-off`);
                         $(`.sequencer .sample-${keyToPadMatrix[letter]} .seq-${key}`).removeClass(`seq-on`);
 
-                        states.sequenceMode.sample[letter].seq[key-1] = 0;
+                        states.sequenceMode.sample[letter].seq[key - 1] = 0;
                     }
                 }
             });
@@ -208,6 +224,37 @@ function pressButton(key, mode) {
             //     $(`.sequencer .sample-${keyToPadMatrix[key]} .sound`).removeClass(`sound-off`);
             //     states.sequenceMode.sample[key].toggle = true;
             // }
+        }
+    }
+}
+
+function playMusic() {
+    console.log(`playMusic()`); 
+    states.playMode.interval = setInterval(playSequencer, states.playMode.bpm);
+
+    let seqStep = 1;
+
+    function playSequencer() {
+        let letters = ["w", "a", "s", "d", "i", "j", "k", "l"];
+
+        letters.forEach(letter => {
+            if (states.sequenceMode.sample[letter].seq[seqStep - 1] === 1) {
+                document.getElementById(`audio-${keyToPadMatrix[letter]}`).pause();
+                document.getElementById(`audio-${keyToPadMatrix[letter]}`).play();
+                $(`.pad.pad-${keyToPadMatrix[letter]}`).removeClass(`pad-off`);
+                $(`.pad.pad-${keyToPadMatrix[letter]}`).addClass(`pad-on`);
+
+                setTimeout(() => {
+                    $(`.pad.pad-${keyToPadMatrix[letter]}`).removeClass(`pad-on`);
+                    $(`.pad.pad-${keyToPadMatrix[letter]}`).addClass(`pad-off`);
+                }, 100);
+            }
+        });
+
+        if (seqStep < 8) {
+            seqStep++;
+        } else {
+            seqStep = 1;
         }
     }
 }
