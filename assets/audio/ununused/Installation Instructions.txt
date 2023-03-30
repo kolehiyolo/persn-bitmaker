@@ -1,0 +1,45 @@
+INSTALLATION INSTRUCTIONS
+
+Extract the "Bitkits" folder and all of its contents to a location of your choice on your hard drive. Installation instructions for each program are listed below. IMPORTANT: Do not move or rename any of the folders or files, doing so can cause missing samples when loading the kits.
+
+Maschine 2:
+
+	- Open Maschine 2 and go to File -> Preferences -> Library -> User tab
+	- Click on the "Add" button, select the "Bitkits" folder and click "OK", and then click "Close" (please note that you should add the "Bitkits" folder and not the separate "Maschine 2 Kits" folder)
+	- Maschine 2 will now scan the library and add the tagged kits and samples to the Maschine 2 browser
+	- Note: In Maschine 2, click the User icon (a small icon of a person's head located to the right of the NI icon at the top of the browser) to see the Bitkits kits and samples in the browser
+
+Battery 4:
+
+	- Open Battery 4 and go to Edit -> Preferences -> Library -> User tab
+	- Click on the "Add" button, select the "Bitkits" folder and click "Close" (please note that you should add the "Bitkits" folder and not the "Battery 4 Kits" folder)
+	- Battery 4 will now scan the library and add the tagged kits and samples to the Battery 4 browser
+	- Note: In Battery 4, click the User tab (to the right of the Factory tab) to see the Bitkits kits and samples in the browser
+
+Ableton Live:
+
+	- There are several ways to access the library, but the best way is probably to add the "Bitkits" folder to the Places section of the sidebar
+	- Open the Live browser and click on "Add Folder..." at the bottom of the Places section
+	- Select the "Bitkits" folder and click "OK"
+	- The Bitkits kits and samples will now be available in the Places section of the Live browser in the "Live Kits" and "Samples" subfolders, respectively
+	- Note: The Live kits are mapped to a General MIDI mapping (as close as possible) to be consistent with other Live Drum Rack kits
+
+MPC:
+
+	- Open the MPC software and drag the "Bitkits.xpn" file anywhere into the software window
+	- Click on the "import" button and the expansion pack will install
+	- The MPC Expansion Browser will now include Bitkits with all kits and samples
+
+FL Studio:
+
+	- Open FL Studio and go to Options -> File Settings
+	- In the "Browser extra search folders" window, click on the folder icon to the left of the next available blank entry
+	- Select the "Bitkits" folder and click "OK"
+	- Close the File Settings window and the Bitkits kits and samples will now be available in the FL Studio browser in the "FL Studio Kits" and "Samples" subfolders, respectively
+
+Kontakt, EXS24/Sampler, Geist, Battery 3, and NN-XT:
+
+	- Open the respective program, locate the kits and open them within the program (no additional steps are needed)
+
+
+IMPORTANT: For all formats, the file and folder structure of the library must stay the same as the original structure in order for the various software sampler programs to automatically find the location of the samples when loading the kits.
